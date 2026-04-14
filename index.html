@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Birthday 💖</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- 🔐 PASSWORD SCREEN -->
+<div id="lockScreen" class="lock-screen">
+  <div class="lock-box">
+    <h2>💖 For Someone Special 💖</h2>
+    <p>Enter Secret Code 🎁</p>
+
+    <input type="password" id="passwordInput" placeholder="Enter password...">
+    
+    <button onclick="checkPassword()">Unlock 💕</button>
+
+    <p id="errorMsg"></p>
+  </div>
+</div>
+<!-- 🎵 Music -->
+<audio id="bgMusic" loop>
+  <source src="music.mp3" type="audio/mpeg">
+</audio>
+<!-- 🌟 FIRST PAGE -->
+<div class="main">
+
+  <h1 class="title">💖 Happy Birthday 💖</h1>
+
+  <!-- 🔄 Rotating Images -->
+  <div class="scene">
+    <div class="carousel3d">
+
+     <img src="photo1.jpg" class="img1">
+     <img src="photo2.jpg" class="img2">
+     <img src="photo3.jpg" class="img3">
+     <img src="photo4.jpg" class="img4">
+     <img src="photo5.jpg" class="img5">
+    </div>
+  </div>
+
+  <!-- 🎁 Button -->
+  <button onclick="openSurprise()">Click for Surprise 🎁</button>
+
+</div>
+
+<!-- 🎁 SECOND PAGE -->
+<div id="surprisePage" class="surprise-page">
+
+  <div class="message-box">
+    <p>
+🎉 Happy Birthday to the person who became very close to me in such a short time 👥🤍💫You are the only person who knows all my secrets and all my pain 🎀🪄🤗You always take such good care of me 🥹, and I feel very comfortable whenever you are with me 😻truly enjoy every moment with you because you make me feel like I am in my comfort zone 💕 
+When I'm with you, I can truly be myself. <br>
+You never limit me, and you always care about me🫂💝Every time you listen to my crazy words and see my funny side, we laugh so much together 😂✨.
+Sometimes you guide me like a true well-wisher 🌟🤝 <br>
+I am truly fortunate and grateful to have a friend like you in my life 🧬🥰.
+ Even though our relationship is bava and mardal, you have become a very close friend to me 🧿💓🖇️I pray that whatever you wish to achieve in your life comes true. <br>
+Some relationships can’t be explained in words… ours is one of them 🧿💝
+No matter how much I say, it still feels less — our bond is truly special 💓🥰
+
+I always want to see you smiling like this 😁😇
+I wish your smile stays the same forever ☺️💫
+
+No matter what happens, I will always stand by your side—whether in happiness or in sadness 🤝💖
+With God's blessings, may you become the best in life 🙇‍♀️✨I hope this bond never breaks🤞💞 <br>
+🎂✨ Once again yappyyy birthdayyyy bavaaaaaaa💗🥳🎈    </p>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
